@@ -5791,3 +5791,53 @@ blockquote.pullquote.right {
 .read-mode #article-container .note .note-icon {
   color: var(--font-color);
 }
+#post .post-copyright .post-copyright-info a,
+#footer-wrap,
+#nav #site-name,
+#page-header #site-title,
+#page-header #site-subtitle,
+#post-info .post-title {
+  padding-top: 3px;
+  background-image: -webkit-linear-gradient(right, #ff4500, #ffa500, #ffd700, #90ee90, #0ff, #1e90ff, #9370db, #ff69b4, #ff4500);
+  background-image: -moz-linear-gradient(right, #ff4500, #ffa500, #ffd700, #90ee90, #0ff, #1e90ff, #9370db, #ff69b4, #ff4500);
+  background-image: -o-linear-gradient(right, #ff4500, #ffa500, #ffd700, #90ee90, #0ff, #1e90ff, #9370db, #ff69b4, #ff4500);
+  background-image: -ms-linear-gradient(right, #ff4500, #ffa500, #ffd700, #90ee90, #0ff, #1e90ff, #9370db, #ff69b4, #ff4500);
+  background-image: linear-gradient(to left, #ff4500, #ffa500, #ffd700, #90ee90, #0ff, #1e90ff, #9370db, #ff69b4, #ff4500);
+  -webkit-background-size: 110vw;
+  -moz-background-size: 110vw;
+  background-size: 110vw;
+  -webkit-background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-animation: rainbowan 60s linear infinite;
+  -webkit-animation: rainbowan 60s linear infinite;
+  -moz-animation: rainbowan 60s linear infinite;
+  -o-animation: rainbowan 60s linear infinite;
+  -ms-animation: rainbowan 60s linear infinite;
+  animation: rainbowan 60s linear infinite;
+}
+@-webkit-keyframes rainbowan {
+  to {
+    background-position: -2000vw;
+  }
+}
+@-moz-keyframes rainbowan {
+  to {
+    background-position: -2000vw;
+  }
+}
+@-webkit-keyframes rainbowan {
+  to {
+    background-position: -2000vw;
+  }
+}
+@-o-keyframes rainbowan {
+  to {
+    background-position: -2000vw;
+  }
+}
+@keyframes rainbowan {
+  to {
+    background-position: -2000vw;
+  }
+}
